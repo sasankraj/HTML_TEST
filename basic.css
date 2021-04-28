@@ -1,0 +1,44 @@
+#main-text {
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+    background-image: url("image.jpg");
+    line-height: 40px;
+}
+
+.main-para {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    /* height: 300px;
+    width:  600px; */
+}
+
+.text-para {
+    color: red; 
+    font-size: 24px; 
+    background-color: yellow;
+    /* font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline; */
+}
+
+.box {
+    border: solid;
+    background-color: brown;
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: 20px;
+    border-color: black;
+    border-width: 10px;
+    text-decoration: underline;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 60px 20px;
+}
