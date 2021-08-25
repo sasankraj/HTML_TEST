@@ -115,35 +115,6 @@ p, ol {
     padding-left: 1px;
 }
 
-
-.skills_Cpp {
-    background-color: violet;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.skills_java {
-    background-color: #8196F3;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.skills_js {
-    background-color: #00ff00;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.skills_python {
-    background-color: yellow;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .contact{
     padding-left: 10px;
     text-decoration: underline;
