@@ -151,11 +151,11 @@ p, ol {
 
 .social-links{
     padding-top: 5px;
-    background-color: black;
+    color: black;
 }
 .social-links i{
     padding: 15px;
-    font-size: 40px;
+    font-size: 20px;
     cursor: pointer;
 }
 
