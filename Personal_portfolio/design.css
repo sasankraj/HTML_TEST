@@ -23,7 +23,7 @@ a {
     font-size: 20px;
     font-family: sans-serif, serif;
     font-variant-caps: titling-caps;
-    color: blue;
+    color: purple;
     padding-inline-start: 10px;
 }
 
@@ -113,7 +113,7 @@ p, ol {
 
 .social-links{
     padding-top: 5px;
-    color: black;
+    background-color: white;
 }
 .social-links i{
     padding: 15px;
