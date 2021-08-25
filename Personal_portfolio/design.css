@@ -121,6 +121,6 @@ p, ol {
 }
 
 .social-links i:hover{
-    background-color: black;
+    background-color: grey;
     border-radius: 25px;
 }
