@@ -27,61 +27,6 @@ a {
     padding-inline-start: 10px;
 }
 
-.hamburger{
-    height: 5px;
-    background-color: white;
-    width: 30px;
-    border-radius: 5px;
-    display: none;
-    transition: all .2s ease-in;
-    cursor: pointer;
-}
-
-.hamburger::before, .hamburger::after{
-    content: '';
-    position: absolute;
-    height: 5px;
-    background-color: white;
-    width: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all .2s ease-in;
-}
-
-.hamburger::before{
-    transform: translateY(-10px);
-}
-
-.hamburger::after{
-    transform: translateY(10px);
-}
-
-.open{
-    background-color: transparent;
-}
-
-.hamburger.open::before{
-    transform: rotate(45deg)
-}
-
-.hamburger.open::after{
-    transform: rotate(-45deg)
-}
-
-.nav-open{
-    position: absolute;
-    top: 60px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: #394867;
-    width: 100%;
-    left: 0px;
-    transition: all .2s ease-in;
-    box-shadow: 0px 6px 4px -4px #29363c;
-    align-items: center;
-}
-
 #CLI, #UTLAPP, #PWEB{
     color: red;
 }
@@ -178,15 +123,5 @@ p, ol {
 .social-links i:hover{
     background-color: grey;
     border-radius: 25px;
-}
-
-@media screen and (max-width: 650px){
-    nav{
-        display: none;
-    }
-
-    .hamburger{
-        display: block;
-    }
 }
 
